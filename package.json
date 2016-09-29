@@ -1,0 +1,30 @@
+{
+  "name": "jp-prefecture-cli",
+  "version": "0.0.1",
+  "description": "jp-prefecture-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run mocha",
+    "test:watch": "npm run mocha -- -w",
+    "mocha": "mocha",
+    "lint": "eslint bin/* test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuyoshiwada/jp-prefecture-cli.git"
+  },
+  "author": "tsuyoshiwada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsuyoshiwada/jp-prefecture-cli/issues"
+  },
+  "homepage": "https://github.com/tsuyoshiwada/jp-prefecture-cli#readme",
+  "dependencies": {
+    "jp-prefecture": "^0.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "mocha": "^3.0.2",
+    "power-assert": "^1.4.1"
+  }
+}

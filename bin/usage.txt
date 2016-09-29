@@ -1,0 +1,9 @@
+usage: jp-prefecture [--version] [--help]
+                     <command> [<args>]
+
+Use these commands:
+    region
+    pref
+    format
+    convert
+    neighbor
